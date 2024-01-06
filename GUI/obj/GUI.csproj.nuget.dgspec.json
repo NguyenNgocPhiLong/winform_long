@@ -1,0 +1,259 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\PHI LONG\\source\\repos\\PR_QuanLyShopAoQuan\\GUI\\GUI.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\PHI LONG\\source\\repos\\PR_QuanLyShopAoQuan\\BLL\\BLL.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\PHI LONG\\source\\repos\\PR_QuanLyShopAoQuan\\BLL\\BLL.csproj",
+        "projectName": "BLL",
+        "projectPath": "C:\\Users\\PHI LONG\\source\\repos\\PR_QuanLyShopAoQuan\\BLL\\BLL.csproj",
+        "packagesPath": "C:\\Users\\PHI LONG\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\PHI LONG\\source\\repos\\PR_QuanLyShopAoQuan\\BLL\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\PHI LONG\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\PHI LONG\\source\\repos\\PR_QuanLyShopAoQuan\\DAL\\DAL.csproj": {
+                "projectPath": "C:\\Users\\PHI LONG\\source\\repos\\PR_QuanLyShopAoQuan\\DAL\\DAL.csproj"
+              },
+              "C:\\Users\\PHI LONG\\source\\repos\\PR_QuanLyShopAoQuan\\DTO\\DTO.csproj": {
+                "projectPath": "C:\\Users\\PHI LONG\\source\\repos\\PR_QuanLyShopAoQuan\\DTO\\DTO.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\PHI LONG\\source\\repos\\PR_QuanLyShopAoQuan\\DAL\\DAL.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\PHI LONG\\source\\repos\\PR_QuanLyShopAoQuan\\DAL\\DAL.csproj",
+        "projectName": "DAL",
+        "projectPath": "C:\\Users\\PHI LONG\\source\\repos\\PR_QuanLyShopAoQuan\\DAL\\DAL.csproj",
+        "packagesPath": "C:\\Users\\PHI LONG\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\PHI LONG\\source\\repos\\PR_QuanLyShopAoQuan\\DAL\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\PHI LONG\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\PHI LONG\\source\\repos\\PR_QuanLyShopAoQuan\\DTO\\DTO.csproj": {
+                "projectPath": "C:\\Users\\PHI LONG\\source\\repos\\PR_QuanLyShopAoQuan\\DTO\\DTO.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.Data.SqlClient": {
+              "target": "Package",
+              "version": "[5.1.2, )"
+            },
+            "System.Data.SqlClient": {
+              "target": "Package",
+              "version": "[4.8.5, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\PHI LONG\\source\\repos\\PR_QuanLyShopAoQuan\\DTO\\DTO.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\PHI LONG\\source\\repos\\PR_QuanLyShopAoQuan\\DTO\\DTO.csproj",
+        "projectName": "DTO",
+        "projectPath": "C:\\Users\\PHI LONG\\source\\repos\\PR_QuanLyShopAoQuan\\DTO\\DTO.csproj",
+        "packagesPath": "C:\\Users\\PHI LONG\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\PHI LONG\\source\\repos\\PR_QuanLyShopAoQuan\\DTO\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\PHI LONG\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\PHI LONG\\source\\repos\\PR_QuanLyShopAoQuan\\GUI\\GUI.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\PHI LONG\\source\\repos\\PR_QuanLyShopAoQuan\\GUI\\GUI.csproj",
+        "projectName": "GUI",
+        "projectPath": "C:\\Users\\PHI LONG\\source\\repos\\PR_QuanLyShopAoQuan\\GUI\\GUI.csproj",
+        "packagesPath": "C:\\Users\\PHI LONG\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\PHI LONG\\source\\repos\\PR_QuanLyShopAoQuan\\GUI\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\PHI LONG\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0-windows"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0-windows7.0": {
+            "targetAlias": "net6.0-windows",
+            "projectReferences": {
+              "C:\\Users\\PHI LONG\\source\\repos\\PR_QuanLyShopAoQuan\\BLL\\BLL.csproj": {
+                "projectPath": "C:\\Users\\PHI LONG\\source\\repos\\PR_QuanLyShopAoQuan\\BLL\\BLL.csproj"
+              },
+              "C:\\Users\\PHI LONG\\source\\repos\\PR_QuanLyShopAoQuan\\DTO\\DTO.csproj": {
+                "projectPath": "C:\\Users\\PHI LONG\\source\\repos\\PR_QuanLyShopAoQuan\\DTO\\DTO.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0-windows7.0": {
+          "targetAlias": "net6.0-windows",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            },
+            "Microsoft.WindowsDesktop.App.WindowsForms": {
+              "privateAssets": "none"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
